@@ -1,0 +1,106 @@
+input {
+    font-size: 2.2rem;
+}
+/* footer */
+/* Contactos */
+footer #asunto {
+    width: 700px;
+    margin-top: 1.5rem;
+       
+}
+
+footer textarea {
+    width: 900px;
+    font-size: 2.2rem;
+    
+}
+
+footer #name, #email {
+    width: 450px;
+}
+
+footer .container-footer .copy {
+    font-size: 2.6rem;
+}
+
+footer .container-footer .container-redes {
+    font-size: 2.7rem;
+}
+
+@media (min-width: 1600px) {
+    
+    .titles {
+        font-size: 3rem;
+    }
+    
+    .titles-h3 {
+        font-size: 2.6rem;
+       
+    }
+    
+    /* Header */
+    .containerTitle .title {
+        font-size: 4rem;
+        padding-right: 3rem;
+    }
+    
+    .containerMenu .menuLi{
+        font-size: 3rem;
+    }
+    
+     /* Experiencia */
+     .container-Experiencia .listas-Experiencias .list-Expe {
+        font-size: 2.2rem;
+    }
+    
+    /* Estudios */
+    .span-estudios {
+        font-size: 2.2rem;
+        
+    }
+    
+    .span-date {
+        font-size: 2rem;
+        
+    }
+    
+    /* Proyectos */
+    .container-Proyectos .div-proyectos .div-container-Proyectos .img-project {
+        height: 22rem;
+        
+    }
+    
+    .container-Proyectos .div-proyectos .div-container-Proyectos p {
+        font-size: 2.2rem;
+        
+    }
+    
+    /* Footer */
+    /* Contacto */
+    footer #asunto {
+        width: 700px;
+        margin-top: 1.5rem;
+           
+    }
+    
+    footer textarea {
+        width: 1000px;
+        font-size: 2.3rem;
+        
+    }
+    
+    footer #name, #email {
+        width: 600px;
+    }
+    
+    footer #btn {
+        width: 35%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3895ea;
+        padding: 2rem;
+        cursor: pointer;
+    }
+    
+}

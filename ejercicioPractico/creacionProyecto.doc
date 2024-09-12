@@ -1,0 +1,11 @@
+Ejercicio Práctico:
+    Ejercicio Práctico:
+    • Creación de un proyecto y Crea y ejecuta las instrucciones en script que realice lo siguiente:
+        ◦ Crear una carpeta para el proyecto.
+        ◦ Dentro de esta, crear subcarpetas para src, tests, y config.
+        ◦ Generar un archivo package.json básico usando el comando npm init -y.
+        ◦ Crear un archivo index.js dentro de la carpeta src.
+
+        ejercicio 2
+
+        hacer una impresiòn en node con la funcion console.log de hola mundo  y ejecutarlo y enviar captura de pantalla

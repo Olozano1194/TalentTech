@@ -1,0 +1,22 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "edad": 25,
+      "direccion": "Calle 1",
+      "telefono": "1234567",
+      "email": "juan@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "nombre": "Pedro",
+      "edad": 30,
+      "direccion": "Calle 2",
+      "telefono": "987654",
+      "email": "pedro@gmail.com",
+      "password": "5678"
+    }
+  ]
+}

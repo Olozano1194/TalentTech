@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #242323;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* style genera */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.titles {
+    font-size: 2.7rem;
+    padding-bottom: 1rem;
+}
+
+.titles-h3 {
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+
+}
+
+hr {
+    padding: 1rem;
+}
+
+input {
+    font-size: 2rem;
+    padding: 1.2rem;
+}
+
+/* style preterminados */
+/* header */
+.containerTitle .title {
+    font-size: 3.5rem;
+    
+}
+
+.containerMenu {
+    width: 100%;
+    justify-content: end;
+    padding-right: 0rem;
+    
+}
+
+.containerMenu .menuLi{
+    font-size: 2rem;
+ }
+
+ /* main */
+ /* Experiencia */
+ .container-Experiencia .listas-Experiencias .list-Expe {
+    font-size: 1.9rem;
+}
+
+ /* Estudios */
+.container-Estudios .student {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-Estudios .student .div-estudios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container-Estudios .student .div-estudios .span-estudios {
+    font-size: 2.2rem;
+}
+
+.container-Estudios .student .div-estudios .span-date {
+    font-size: 2rem;
+}
+
+/* proyectos */
+.container-Proyectos .div-proyectos .div-container-Proyectos p {
+    font-size: 1.9rem;
+    
+}
+
+/* skills */
+.container-Skills .div-Skills .div-container-Skills span {
+    font-size: 2rem;
+}
+
+/* Contacto */
+footer .container-Contacto .container-div-contacto #p-contacto, #p-contact {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+/* footer */
+/* formulario */
+footer form {
+    width: 100%;
+    padding: 2rem;
+    
+}
+
+footer #asunto {
+    width: 500px;
+    margin-top: 1.5rem;
+       
+}
+
+footer textarea {
+    width: 700px;
+    height: 20vh;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer #name, #email {
+    width: 350px;
+}
+
+footer #btn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3895ea;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+footer #btn:hover {
+    transform: scale(1.1);
+}
+
+footer .container-footer .copy {
+    font-size: 2.2rem;
+}
+
+footer .container-footer .container-redes {
+    font-size: 2.5rem;
+}

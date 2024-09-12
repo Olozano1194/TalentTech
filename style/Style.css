@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #242323;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+
+/* style genera */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.padding {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.titles {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+}
+
+.titles-h3 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+
+}
+
+hr {
+    padding: 1rem;
+}
+
+input {
+    outline: none;
+    padding: 0.3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+/* style preterminados */
+
+/* header */
+header {
+    width: 100%;
+    padding: 1.2rem 2rem 1rem 5rem;
+}
+
+.containerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.4rem;
+        
+}
+
+.containerTitle .title {
+    font-size: 2rem;
+    padding-right: 3rem;
+}
+
+.containerMenu {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding-right: 2.5rem;
+    text-align: center;
+    
+}
+
+.containerMenu .menuLi{
+   font-size: 1.7rem;
+}
+
+.containerMenu .menuLi:hover {
+    transform: scale(1.1);
+}
+
+/* main */
+/* Experiencia */
+.container-Experiencia {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.container-Experiencia .listas-Experiencias {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.container-Experiencia .listas-Experiencias .list-Expe {
+    border: 1px #242323 solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+}
+
+/* Estudios */
+.container-Estudios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    
+}
+
+.span-estudios {
+    font-size: 1.7rem;
+    color: turquoise;
+    padding-top: 1rem;
+}
+
+.span-date {
+    font-size: 1.7rem;
+    color: steelblue;
+    padding: 1rem;
+}
+
+/* Proyectos */
+.container-Proyectos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.div-proyectos {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.container-Proyectos .div-proyectos .div-container-Proyectos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-Proyectos .div-proyectos .div-container-Proyectos .img-project {
+    width: 100%;
+    height: 15rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.container-Proyectos .div-proyectos .div-container-Proyectos .img-project:hover {
+    transform: scale(1.1);
+}
+
+.container-Proyectos .div-proyectos .div-container-Proyectos p {
+    font-size: 1.5rem;
+    color: tomato;
+}
+
+/* Skills */
+.container-Skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        
+}
+
+.container-Skills .div-Skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Footer */
+/* Contactos */
+footer {
+    width: 100%;
+       
+}
+
+footer .container-Contacto .container-div-contacto {
+    width: 100%;
+}
+
+footer .container-Contacto .container-div-contacto #p-contacto, #p-contact {
+    line-height: 2.5rem;
+}
+
+footer .container-Contacto .container-div-contacto form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+footer .container-Contacto .container-div-contacto form .div-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+footer textarea, #asunto {
+    width: 360px;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    outline: none;
+    resize: none;
+      
+}
+
+footer textarea:focus, #asunto:focus, #email:focus, #name:focus {
+    border: 1px solid #3895ea;
+}
+
+footer #container-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    text-align: center;
+
+}
+
+footer #btn {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3895ea;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+/* Copy */
+footer .container-footer {
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+footer .container-footer .container-copy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .container-footer .copy {
+    width: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+} 
+
+footer .container-footer .container-redes {
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+}
+
+footer .container-footer .container-redes .instagram:hover {
+    background: #833ab4 ;
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-clip: text;
+    color: rgba(0, 0, 0, 0.4);
+    transform: scale(1.5);
+}
+
+footer .container-footer .container-redes .facebook:hover {
+    color: #3b5998;
+    transform: scale(1.5);
+
+}
+
+footer .container-footer .container-redes .linkedin:hover {
+    color: #0077b5;
+    transform: scale(1.5);
+}
+
+footer .container-footer .container-redes .github:hover {
+    color: #656368;
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
