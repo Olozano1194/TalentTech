@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
     
-const uri = 'mongodb+srv://srempalador2021:Oleger1194@devoscar.h7chs.mongodb.net/?retryWrites=true&w=majority&appName=DevOscar';
+const uri = 'mongodb+srv://srempalador2021:Oleger1194@devoscar.h7chs.mongodb.net/instituciones?retryWrites=true&w=majority&appName=DevOscar';
 const dbName = 'dbStudent';
 const collectionName = 'usuarios';
 
